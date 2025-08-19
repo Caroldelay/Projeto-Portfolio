@@ -9,5 +9,8 @@ img {
 }
 
 a {
-    font-family: fira code;
+    color:aliceblue ;
+    font-family: "Fire Code";
+    font-weight: 500;
+    text-decoration: none;
 }
