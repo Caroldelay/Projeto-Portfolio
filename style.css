@@ -1,8 +1,13 @@
 body {
     margin: 0;
-    background-color: rgb(121, 76, 101);
+    background-color: rgb(33, 75, 124);
+    color: aliceblue;
 }
 img {
     width: 100px;
     height: auto;
+}
+
+a {
+    font-family: fira code;
 }
