@@ -8,12 +8,18 @@ img {
     height: auto;
 }
 
+nav { /* insiro o text align no "pai" para centralizar os botoões, que nesse
+    caso é o nav porque contém o cabeçalho dentro */
+    text-align: center;
+}
+
 a {
     color:aliceblue ;
 font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
+    
 }
 
 #button {
