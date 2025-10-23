@@ -1,37 +1,83 @@
 body {
     margin: 0;
-    background-color: rgb(33, 75, 124);
-    color: aliceblue;
+    color: rgb(14, 97, 170);
 }
 img {
     width: 100px;
     height: auto;
 }
 
-nav { /* insiro o text align no "pai" para centralizar os botoões, que nesse
-    caso é o nav porque contém o cabeçalho dentro */
-    text-align: center;
-}
-
-a {
-    color:aliceblue ;
-font-family: "Fira Code", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
+header {
+    
+    
+    background-color:rgb(33, 75, 124); 
+    border-bottom: 10px solid rgb(4, 33, 59);
+    padding-left: 20px;
+    padding-right: 20px;
+    
     
 }
 
-#button {
+
+
+nav { /* insiro o text align no "pai" para centralizar os botoões, que nesse
+    caso é o nav porque contém o cabeçalho dentro */
+    
+    text-align: center;
+    margin-bottom: 40px;
+    height: 30px;
+    
+   
+}
+
+a {
+    
+    background-color: rgb(84, 137, 187);;
+    color:aliceblue ;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 40px;
+    border-radius: 5px;
+    
+    
+}
+a:hover {
+background-color: rgba(82, 81, 81, 0.336)
+}
+
+a:before { /*mudança do ícone ao lado do menu*/
+    content: ""; /*uso para colocar o ícone de bolinha ao lado das palavras*/
+    background-color: aliceblue;
     display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#button {
+    display: inline-block; /* da flexibilidade do block mas sem quebrar linha.*/
     background-color: rgb(84, 137, 187);
     color:aliceblue;
     height: 60px;
     line-height: 60px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 2px;
     border-radius: 10px;
     box-shadow: 5px 5px 0px aliceblue;
+    margin-right: 0;
 
 
+}
+
+#button:hover {
+    transform: scale(1.08);
+
+}
+
+
+p {
+    text-align: center;
 }
